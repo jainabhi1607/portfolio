@@ -6,6 +6,19 @@ I build scalable, production-ready web applications for businesses across health
 
 ---
 
+## What I Can Build For You
+
+| Service | Description |
+|---------|-------------|
+| Custom Admin Dashboards & CRM Systems | Tailored business tools with role-based access and real-time data |
+| SaaS Platforms with Multi-Tenant Architecture | Scalable apps serving multiple organizations with data isolation |
+| Healthcare & Finance Management Systems | HIPAA-aware, secure platforms for sensitive industries |
+| Mobile Apps + Web Apps | Cross-platform solutions using React Native + Next.js |
+| AI-Powered Features | Chatbots, smart search, and AI integrations using Claude/OpenAI APIs |
+| Legacy Modernization | Migrate PHP/WordPress apps to modern React/Next.js stacks |
+
+---
+
 ## Projects
 
 ### 1. JJDH — Hospital Management System
@@ -33,14 +46,38 @@ I build scalable, production-ready web applications for businesses across health
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    Next.js 16 (App Router) with Server-Side Rendering
+Backend:     Next.js API Routes with JWT Authentication
+Database:    MongoDB Atlas with Mongoose ODM (embedded subdocuments)
+Auth:        NextAuth v4 with credentials/JWT (5 user roles)
+UI:          Tailwind CSS + shadcn/ui (Radix UI components)
+Deployment:  Vercel with CI/CD
+```
+</details>
+
+<details>
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
+#### Secure Login — Role-based authentication for authorized hospital personnel
 ![Login](screenshots/jjdh/jjdh-Login.png)
+
+#### Dashboard — Real-time overview of patients, appointments, and hospital activity
 ![Dashboard](screenshots/jjdh/jjdh-Dashboard.png)
+
+#### Patient Management — Comprehensive list with search, filters, and quick actions
 ![Patients](screenshots/jjdh/Patient.png)
+
+#### Patient Detail — Complete medical history, visit records, and documents
 ![Patient Detail](screenshots/jjdh/Patient-detail.png)
+
+#### Appointments — Scheduling and calendar view for doctor-patient appointments
 ![Appointments](screenshots/jjdh/Appointment.png)
+
+#### Invoice Generation — Create and manage billing with itemized details
 ![Invoice](screenshots/jjdh/Add-Invoice.png)
 
 </details>
@@ -76,13 +113,37 @@ I build scalable, production-ready web applications for businesses across health
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    Next.js 15 (App Router) + React Native (Expo SDK 51)
+Backend:     Next.js API Routes with JWT + bcrypt Authentication
+Database:    MongoDB with Mongoose ODM
+Services:    Postmark (email), Mapbox (location), ABN/ABR (verification)
+Auth:        2FA + JWT with audit logging and IP tracking
+Validation:  React Hook Form + Zod
+Documents:   jsPDF + React PDF for report generation
+Deployment:  Vercel (web) + Expo (mobile)
+```
+</details>
+
+<details>
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
+#### Login — Secure authentication with session management
 ![Login](screenshots/LoanEase/Login.png)
+
+#### Admin Dashboard — Overview of loan applications, referrers, and pipeline status
 ![Dashboard](screenshots/LoanEase/LoanEase-Dashboard.png)
+
+#### Applications — Track and manage commercial loan applications
 ![Applications](screenshots/LoanEase/Application.png)
+
+#### Application Detail — Full application view with status, documents, and history
 ![Application Detail](screenshots/LoanEase/Application-Detail.png)
+
+#### Referrer Dashboard — Dedicated portal for referrers to manage their pipeline
 ![Referrer Dashboard](screenshots/LoanEase/Referrer-Dashboard.png)
 
 </details>
@@ -116,16 +177,45 @@ I build scalable, production-ready web applications for businesses across health
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    Next.js 16 (App Router) with Server Components
+Backend:     Next.js API Routes with NextAuth 5 (JWT + credentials)
+Database:    MongoDB Atlas with Mongoose 9 ODM (59 models)
+Auth:        NextAuth 5 beta with 5 role-based access levels
+UI:          Tailwind CSS 4 + Radix UI (shadcn) + Recharts
+Utilities:   jsPDF (export), QRCode (equipment tags), crypto-js
+Deployment:  Vercel with CI/CD
+```
+</details>
+
+<details>
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
+#### Login — Secure access for admins, managers, and client users
 ![Login](screenshots/TSC/Login.png)
+
+#### Dashboard — Business overview with charts, job stats, and activity feed
 ![Dashboard](screenshots/TSC/Dashboard.png)
+
+#### Client Detail — Complete client profile with sites, contacts, and history
 ![Clients](screenshots/TSC/Client-detail.png)
+
+#### Job Cards — Manage work orders with status tracking and technician assignment
 ![Job Cards](screenshots/TSC/Job-Cards.png)
+
+#### Job Card Detail — Full job view with checklists, time logs, and activity
 ![Job Card Detail](screenshots/TSC/Job-Card-detail.png)
+
+#### Checklist Templates — Reusable inspection templates for field operations
 ![Checklist Templates](screenshots/TSC/Checklist-Templates.png)
+
+#### Support Tickets — Track and resolve client issues with priority management
 ![Support Tickets](screenshots/TSC/Support-Tickets.png)
+
+#### Ticket Detail — Full ticket view with conversation thread and status updates
 ![Support Ticket Detail](screenshots/TSC/Support-Ticket-Detail.png)
 
 </details>
@@ -161,13 +251,37 @@ I build scalable, production-ready web applications for businesses across health
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    Next.js 15 (App Router) with Server-Side Rendering
+Backend:     Next.js API Routes with middleware authentication
+Database:    Supabase (PostgreSQL) with Row-Level Security & migrations
+Auth:        2FA for admin users + JWT with audit trails
+Services:    Postmark (email), Mapbox (location), ABN/ABR (verification)
+Security:    CSP headers, XSS protection, IP monitoring, audit logging
+Editor:      TipTap for rich text + jsPDF for document generation
+Deployment:  Vercel with GitLab CI/CD pipeline
+```
+</details>
+
+<details>
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
+#### Dashboard — Loan pipeline overview with key metrics and activity
 ![Dashboard](screenshots/clue/Clue-Dashboard.png)
+
+#### Clients — Manage organizations with multi-tenant data isolation
 ![Clients](screenshots/clue/Clients.png)
+
+#### Client Detail — Full client profile with loan history and documents
 ![Client Detail](screenshots/clue/Client-Detail.png)
+
+#### Opportunities — Track and manage loan opportunities through the pipeline
 ![Opportunities](screenshots/clue/Opportunity.png)
+
+#### Potential Referrers — Manage and onboard new referral partners
 ![Potential Referrer](screenshots/clue/Potential-Referrer.png)
 
 </details>
