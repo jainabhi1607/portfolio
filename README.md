@@ -36,12 +36,12 @@ I build scalable, production-ready web applications for businesses across health
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
-<!-- Add your screenshots here -->
-<!-- ![Dashboard](screenshots/jjdh-dashboard.png) -->
-<!-- ![Patients](screenshots/jjdh-patients.png) -->
-<!-- ![Appointments](screenshots/jjdh-appointments.png) -->
-
-> Screenshots coming soon — take screenshots of: Login page, Dashboard, Patient list, Appointment calendar, Prescription form, Invoice view
+![Login](screenshots/jjdh/jjdh-Login.png)
+![Dashboard](screenshots/jjdh/jjdh-Dashboard.png)
+![Patients](screenshots/jjdh/Patient.png)
+![Patient Detail](screenshots/jjdh/Patient-detail.png)
+![Appointments](screenshots/jjdh/Appointment.png)
+![Invoice](screenshots/jjdh/Add-Invoice.png)
 
 </details>
 
@@ -79,13 +79,11 @@ I build scalable, production-ready web applications for businesses across health
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
-<!-- Add your screenshots here -->
-<!-- ![Login](screenshots/loanease-login.png) -->
-<!-- ![Dashboard](screenshots/loanease-dashboard.png) -->
-<!-- ![Opportunities](screenshots/loanease-opportunities.png) -->
-<!-- ![Mobile App](screenshots/loanease-mobile.png) -->
-
-> Screenshots coming soon — take screenshots of: Login page, Admin dashboard, Referrer dashboard, Opportunity list, Application form, Mobile app screens
+![Login](screenshots/LoanEase/Login.png)
+![Dashboard](screenshots/LoanEase/LoanEase-Dashboard.png)
+![Applications](screenshots/LoanEase/Application.png)
+![Application Detail](screenshots/LoanEase/Application-Detail.png)
+![Referrer Dashboard](screenshots/LoanEase/Referrer-Dashboard.png)
 
 </details>
 
@@ -121,13 +119,14 @@ I build scalable, production-ready web applications for businesses across health
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
-<!-- Add your screenshots here -->
-<!-- ![Dashboard](screenshots/tsc-dashboard.png) -->
-<!-- ![Job Cards](screenshots/tsc-jobcards.png) -->
-<!-- ![Equipment](screenshots/tsc-equipment.png) -->
-<!-- ![Clients](screenshots/tsc-clients.png) -->
-
-> Screenshots coming soon — take screenshots of: Login page, Dashboard, Client list, Job card view, Equipment tracker, Support tickets
+![Login](screenshots/TSC/Login.png)
+![Dashboard](screenshots/TSC/Dashboard.png)
+![Clients](screenshots/TSC/Client-detail.png)
+![Job Cards](screenshots/TSC/Job-Cards.png)
+![Job Card Detail](screenshots/TSC/Job-Card-detail.png)
+![Checklist Templates](screenshots/TSC/Checklist-Templates.png)
+![Support Tickets](screenshots/TSC/Support-Tickets.png)
+![Support Ticket Detail](screenshots/TSC/Support-Ticket-Detail.png)
 
 </details>
 
@@ -165,12 +164,11 @@ I build scalable, production-ready web applications for businesses across health
 <summary><strong>Screenshots (click to expand)</strong></summary>
 <br>
 
-<!-- Add your screenshots here -->
-<!-- ![Login](screenshots/clue-login.png) -->
-<!-- ![Dashboard](screenshots/clue-dashboard.png) -->
-<!-- ![Opportunities](screenshots/clue-opportunities.png) -->
-
-> Screenshots coming soon — take screenshots of: Login page, Dashboard, Opportunity workflow, Application form, Audit log
+![Dashboard](screenshots/clue/Clue-Dashboard.png)
+![Clients](screenshots/clue/Clients.png)
+![Client Detail](screenshots/clue/Client-Detail.png)
+![Opportunities](screenshots/clue/Opportunity.png)
+![Potential Referrer](screenshots/clue/Potential-Referrer.png)
 
 </details>
 
