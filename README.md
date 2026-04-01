@@ -1,1 +1,221 @@
-# portfolio
+# Abhishek Jain — Project Portfolio
+
+### Senior Full-Stack Developer | 10+ Years of Experience
+
+I build scalable, production-ready web applications for businesses across healthcare, finance, and field services. Below are some of my recent projects built with modern tech stacks.
+
+---
+
+## Projects
+
+### 1. JJDH — Hospital Management System
+
+> A comprehensive hospital/clinic admin dashboard for managing patients, doctors, appointments, prescriptions, invoices, and medical records.
+
+🔗 **Live Demo:** [jjdh.vercel.app](https://jjdh.vercel.app/)
+
+**Key Features:**
+- Patient management with medical records, visit history, and medical image storage
+- Doctor and staff management with role-based access (Super Admin, Admin, Doctor, Receptionist, Nurse)
+- Appointment scheduling, prescription tracking, and medicine database
+- Invoice generation and financial records
+- Master data management (diagnoses, investigations, advice, medicines)
+- Spreadsheet export for reporting
+
+**Tech Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![NextAuth](https://img.shields.io/badge/NextAuth-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+<!-- Add your screenshots here -->
+<!-- ![Dashboard](screenshots/jjdh-dashboard.png) -->
+<!-- ![Patients](screenshots/jjdh-patients.png) -->
+<!-- ![Appointments](screenshots/jjdh-appointments.png) -->
+
+> Screenshots coming soon — take screenshots of: Login page, Dashboard, Patient list, Appointment calendar, Prescription form, Invoice view
+
+</details>
+
+---
+
+### 2. LoanEase — Commercial Loan Referral Platform
+
+> A multi-tenant loan referral management platform connecting referrers with commercial loan opportunities. Includes a web dashboard and a React Native mobile app.
+
+🔗 **Live Demo:** [loanease-app.vercel.app](https://loanease-app.vercel.app/)
+
+**Key Features:**
+- Dual-access portals: Admin dashboard and Referrer dashboard
+- Loan opportunity and application workflow management
+- ABN/ABR validation for Australian business verification
+- 2FA authentication, audit logging, and IP tracking
+- Email notifications via Postmark
+- Rich text editing for notes and communications
+- PDF document generation for reports
+- React Native mobile app (iOS & Android) for on-the-go access
+
+**Tech Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+<!-- Add your screenshots here -->
+<!-- ![Login](screenshots/loanease-login.png) -->
+<!-- ![Dashboard](screenshots/loanease-dashboard.png) -->
+<!-- ![Opportunities](screenshots/loanease-opportunities.png) -->
+<!-- ![Mobile App](screenshots/loanease-mobile.png) -->
+
+> Screenshots coming soon — take screenshots of: Login page, Admin dashboard, Referrer dashboard, Opportunity list, Application form, Mobile app screens
+
+</details>
+
+---
+
+### 3. Total Spray Care (TSC) — Field Service Management
+
+> An admin dashboard for spray booth maintenance and pest/spray care businesses to manage clients, sites, equipment, job cards, support tickets, and technicians.
+
+🔗 **Live Demo:** [total-spray.vercel.app](https://total-spray.vercel.app/)
+
+**Key Features:**
+- Client and site management with multi-level organization
+- Job card creation with technician assignment, checklists, and time tracking
+- Equipment tracking with maintenance history, QR codes, and inspection checklists
+- Support ticket system with activity logging
+- Role-based access control across 5 user roles (Super Admin, Admin, Manager, Client User, Client Admin)
+- Interactive charts and data visualization with Recharts
+- PDF export and QR code generation for equipment
+
+**Tech Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![NextAuth](https://img.shields.io/badge/NextAuth_5-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square&logo=chart.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+<!-- Add your screenshots here -->
+<!-- ![Dashboard](screenshots/tsc-dashboard.png) -->
+<!-- ![Job Cards](screenshots/tsc-jobcards.png) -->
+<!-- ![Equipment](screenshots/tsc-equipment.png) -->
+<!-- ![Clients](screenshots/tsc-clients.png) -->
+
+> Screenshots coming soon — take screenshots of: Login page, Dashboard, Client list, Job card view, Equipment tracker, Support tickets
+
+</details>
+
+---
+
+### 4. Clue Finance — Loan Management Platform
+
+> A multi-tenant commercial loan referral platform with comprehensive security, workflow management, and business verification capabilities.
+
+🔗 **Live Demo:** [cluefinance.vercel.app](https://cluefinance.vercel.app/)
+
+**Key Features:**
+- Multi-tenant architecture with row-level security (RLS) for data isolation
+- Loan opportunity and application processing workflows
+- ABN/ABR business validation integration
+- 2FA authentication for admin users
+- Audit trails with IP monitoring
+- Email notifications via Postmark
+- Location search integration with Mapbox
+- Rich text editing and PDF document generation
+- Content Security Policy headers and XSS protection
+
+**Tech Stack:**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase_(PostgreSQL)-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Postmark](https://img.shields.io/badge/Postmark-FFCC00?style=flat-square&logoColor=black)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+<!-- Add your screenshots here -->
+<!-- ![Login](screenshots/clue-login.png) -->
+<!-- ![Dashboard](screenshots/clue-dashboard.png) -->
+<!-- ![Opportunities](screenshots/clue-opportunities.png) -->
+
+> Screenshots coming soon — take screenshots of: Login page, Dashboard, Opportunity workflow, Application form, Audit log
+
+</details>
+
+---
+
+## Tech Stack Overview
+
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+### Backend & Database
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### Cloud & DevOps
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+
+---
+
+## About Me
+
+I'm a Senior Full-Stack Developer with 10+ years of experience building web applications. I specialize in modern JavaScript/TypeScript ecosystems and have delivered production-ready applications across healthcare, finance, and field service industries.
+
+### What I Bring to Every Project
+- End-to-end development from architecture to deployment
+- Clean, maintainable, and scalable code
+- Role-based access control and security best practices
+- Responsive design that works across all devices
+- Production deployment and performance optimization
+
+---
+
+## Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jn-abhi)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://sterlinginfotech.com/portfolio)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:info@sterlinginfotech.com)
+
+---
+
+> I'm available for **freelance projects**, **contract work**, and **full-time remote roles**. If you need an experienced full-stack developer, let's talk!
