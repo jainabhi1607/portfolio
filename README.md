@@ -2,7 +2,7 @@
 
 ### Senior Full-Stack Developer | 10+ Years of Experience
 
-I build scalable, production-ready web applications for businesses across healthcare, finance, field services, motorsport, and iGaming. Below are some of my recent projects built with modern tech stacks.
+I build scalable, production-ready web applications for businesses across healthcare, finance, field services, motorsport, iGaming, and industrial safety inspection. Below are some of my recent projects built with modern tech stacks.
 
 ---
 
@@ -493,6 +493,73 @@ Reporting:   Multi-filter reporting across all modules
 
 ---
 
+### 8. Rack Inspector — Warehouse Racking Safety Inspection Platform
+
+> A multi-role warehouse racking safety inspection management system built for an Australian company (rackinspector.com.au). Manages the full inspection lifecycle — from company onboarding and client management through inspector assignment, item-level rack inspection, risk assessment, and automated certificate/report generation.
+
+**Key Features:**
+- Admin portal with client directory managing 220+ records, company and inspector management
+- Company portal with 5-tab client navigation: Company Details, Inspections, Reports, Legacy Reports, Documents
+- Inspection creation with safety compliance questions — storage equipment, load limits, unit load dimensions, load stability, racking attachment verification
+- Detailed rack inspection items — Rack ID, Aisle/Bay/Frame/Level numbers, LHS/RHS, Front/Rear, Parts, Problem Type, Action, Risk level, image upload
+- Client self-service portal — view inspections, download certificates and reports, access legacy reports and documents
+- Automated report generation with download links and delivery status tracking
+- Customizable email templates with variables ({Name}, {UserName}, {Password}) for onboarding and password recovery
+- 3 distinct user roles: Admin, Company, Client — each with separate portal and navigation
+
+**Tech Stack:**
+
+![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?style=flat-square&logo=cakephp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+<details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    CakePHP Views + jQuery + Custom CSS
+Backend:     CakePHP MVC Framework (PHP)
+Database:    MySQL with relational schema for companies, clients, inspections, items
+Auth:        3-role system (Admin, Company, Client) with separate portals
+Features:    Inspection lifecycle, risk assessment, PDF certificates/reports
+Email:       Customizable templates with variable substitution
+```
+</details>
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+#### Admin Dashboard — Client directory with 220+ records, contact details, and quick actions
+![Dashboard](screenshots/rack-inspector/Dashboard.png)
+
+#### Client Details — 5-tab profile with Company Details, Inspections, Reports, Legacy Reports, Documents
+![Client Details](screenshots/rack-inspector/Client-Details.png)
+
+#### Inspections — Inspector assignment with date, line items, next inspection, and status tracking
+![Inspections](screenshots/rack-inspector/Inspections.png)
+
+#### Add Inspection — Inspection form with safety compliance questions for rack assessment
+![Add Inspection](screenshots/rack-inspector/Add-Inspections.png)
+
+#### Inspection Items — Detailed rack location entry with risk level, problem type, action, and image upload
+![Inspection Items](screenshots/rack-inspector/Add-Inspection-Items.png)
+
+#### Reports — Automated report generation with download links and delivery status
+![Reports](screenshots/rack-inspector/Report.png)
+
+#### Client Portal — Self-service inspections view with certificate and report downloads
+![Client Portal](screenshots/rack-inspector/Client-Dashboard.png)
+
+#### Settings — Admin settings with customizable email templates and notification management
+![Settings](screenshots/rack-inspector/Settings.png)
+
+</details>
+
+---
+
 ## Tech Stack Overview
 
 ### Frontend
@@ -521,7 +588,7 @@ Reporting:   Multi-filter reporting across all modules
 
 ## About Me
 
-I'm a Senior Full-Stack Developer with 10+ years of experience building web applications. I specialize in modern JavaScript/TypeScript ecosystems and CakePHP, and have delivered production-ready applications across healthcare, finance, field services, motorsport, and iGaming industries.
+I'm a Senior Full-Stack Developer with 10+ years of experience building web applications. I specialize in modern JavaScript/TypeScript ecosystems and CakePHP, and have delivered production-ready applications across healthcare, finance, field services, motorsport, iGaming, and industrial safety inspection industries.
 
 ### What I Bring to Every Project
 - End-to-end development from architecture to deployment
