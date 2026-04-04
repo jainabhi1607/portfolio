@@ -2,7 +2,7 @@
 
 ### Senior Full-Stack Developer | 10+ Years of Experience
 
-I build scalable, production-ready web applications for businesses across healthcare, finance, and field services. Below are some of my recent projects built with modern tech stacks.
+I build scalable, production-ready web applications for businesses across healthcare, finance, field services, motorsport, and iGaming. Below are some of my recent projects built with modern tech stacks.
 
 ---
 
@@ -15,6 +15,7 @@ I build scalable, production-ready web applications for businesses across health
 | Healthcare & Finance Management Systems | HIPAA-aware, secure platforms for sensitive industries |
 | Mobile Apps + Web Apps | Cross-platform solutions using React Native + Next.js |
 | AI-Powered Features | Chatbots, smart search, and AI integrations using Claude/OpenAI APIs |
+| Large-Scale Data Management Platforms | High-volume CRUD apps with advanced filtering, reporting, and CSV operations |
 | Legacy Modernization | Migrate PHP/WordPress apps to modern React/Next.js stacks |
 
 ---
@@ -288,6 +289,210 @@ Deployment:  Vercel with GitLab CI/CD pipeline
 
 ---
 
+### 5. Karting NSW — State Karting Association Management System
+
+> A comprehensive admin platform for Karting New South Wales (Australia) to manage members, licences, events, clubs, penalties, classes, and officials across the state karting organization.
+
+**Key Features:**
+- Member management with 109+ members — full profiles with Contact Info, Medical, Licences, Memberships, Penalties, Endorsements, Notes, Payments, Events, and Officials History tabs
+- Proof of Identity and Driving Test verification workflow with Approve/Reject actions
+- Licence management with pending licence review and approval system
+- Event management — Karting Official Events with Entrants, Endorsements, Penalties, Products, Event Details, and Reports & Forms tabs
+- Class Management across Club Level, State Level, and National Level — with Class Name, Licence Type, Min Grade, Min Age, and Engine configuration
+- Club management with Membership Products (Fixed Date / Rolling types), Club Info, Events, Club Admins, and Sister Clubs
+- Reports & Forms — Payments Report CSV, Race Entries Report, Endorsement Report, Penalties Report, Officials Reports (PDF), D Grade Scrutineers Report, Product Purchases
+- Penalty forms — Judge of Fact Penalty, Nose Cone Position Form, Minor Ineligibility Notification, Infringement Form
+- Event Officials and Engine Types configuration
+- Communications module, Notes system, and Admin management
+- Global Settings, Action Log for audit trail
+
+**Tech Stack:**
+
+![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?style=flat-square&logo=cakephp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+<details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    CakePHP Views + jQuery + Bootstrap + Custom CSS
+Backend:     CakePHP MVC Framework (PHP)
+Database:    MySQL with relational schema for members, licences, events, clubs
+Auth:        State Admin role-based access with multi-level permissions
+Features:    Member lifecycle, licence approval workflows, event management
+Reporting:   CSV/PDF report generation for payments, entries, penalties, endorsements
+```
+</details>
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+#### Dashboard — State admin overview with Members, Officials, Pending Licences, and Proof of Identity review queue
+![Dashboard](screenshots/karting/Dashboard.png)
+
+#### Members — Full member directory with ID, Name, Email, Mobile, and Active status
+![Members](screenshots/karting/Users.png)
+
+#### Member Detail — Complete profile with 10-tab navigation: Contact, Medical, Licences, Memberships, Penalties, Endorsements, Notes, Payments, Events, Officials History
+![Member Detail](screenshots/karting/User-Detail.png)
+
+#### Karting Event — Official event management with Entrants, Endorsements, Penalties, Products, and Reports tabs
+![Events](screenshots/karting/KartingEvents.png)
+
+#### Class Management — Configure racing classes at Club, State, and National levels with licence types and engine rules
+![Class Management](screenshots/karting/ClassManagements.png)
+
+#### Club Memberships — Club detail with membership products, pricing (Fixed Date / Rolling types), and club administration
+![Club Memberships](screenshots/karting/Club-Memberships.png)
+
+#### Reports & Forms — Event reports (CSV/PDF) and penalty forms for race officials
+![Reporting](screenshots/karting/Reporting.png)
+
+</details>
+
+---
+
+### 6. AASA — Australian Auto-Sport Alliance Management Platform
+
+> A full-featured admin platform for the Australian Auto-Sport Alliance (AASA) — the national governing body for auto-sport. Manages licences, permits, vehicle passports, karting clubs, officials, media credentials, events, and coupons across the organization.
+
+**Key Features:**
+- Dashboard with monthly KPIs — Licences, Officials & Media applications with revenue tracking, Vehicle Passports, Renewals due, Media Licences, and National Race Licence review alerts
+- Licence management — General Speed Licence, National Race Licences with search, status tracking (Active/Expired), PDF download, and View actions
+- Detailed licence profiles — Personal Details, Emergency Contact, Licence/Venue Details, Medical Information (10+ health questions), Disclaimers & Payment (Stripe integration), Document uploads, and Historical Applications
+- Public licence application form — Multi-section form with Licence Venue Details, Medical Information, Disclaimers & Payment, Refund Policy, Coupon system, and Stripe credit card payment ($101.08 fee)
+- Permit management — Permit Info, Financials, Post Event, Documents, and Notes tabs with status workflow (Pending/Approved), Coversheet download, and Post Event Docs reminders
+- Karting Clubs management — Club listing with Prefix, Member count, and View Members drill-down with licence details (Licence No, Type, Status, Expiry Date)
+- Clubs/Promoters, Contacts, and Officials modules
+- Driver Training Licence and Vehicle Passport management
+- Media credentials management
+- Upcoming Events and Coupons modules
+- Reports, Admins, Global Settings, and Activity Log
+
+**Tech Stack:**
+
+![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?style=flat-square&logo=cakephp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+<details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    CakePHP Views + jQuery + Bootstrap + Custom CSS
+Backend:     CakePHP MVC Framework (PHP)
+Database:    MySQL with relational schema for licences, permits, clubs, events
+Auth:        Admin role-based access with multi-module permissions
+Payments:    Stripe integration for licence fees and coupon support
+Features:    Licence lifecycle, permit workflow, medical compliance, document management
+Reporting:   Reports module with activity logging
+```
+</details>
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+#### Login — AASA branded authentication with member and promoter registration options
+![Login](screenshots/AASA/Admin-Login.png)
+
+#### Admin Dashboard — Monthly KPIs for Licences, Officials & Media, Vehicle Passports, Renewals, and alert panels for Media and National Race Licences
+![Dashboard](screenshots/AASA/Admin-Admin.png)
+
+#### Karting Clubs — Club directory with Prefix, Member count, and View Members action
+![Karting Clubs](screenshots/AASA/KartingClubs.png)
+
+#### Club Members — Karting club member listing with Licence No, Mobile, Email, Expiry Date, Type, Status, and quick actions (View, Download, PDF)
+![Club Members](screenshots/AASA/KartingClub-Details.png)
+
+#### Licences — General Speed Licence management with search, status filters, and Add/Settings actions
+![Licences](screenshots/AASA/Licences.png)
+
+#### Licence Detail — Complete licence profile with Personal Details, Emergency Contact, Licence/Venue Details, Medical Information, Disclaimers & Payment, Document uploads, and Historical Applications
+![Licence Detail](screenshots/AASA/Licence-Detail.png)
+
+#### Licence Application — Public-facing multi-section application form with Medical Information, Disclaimers, Refund Policy, Coupon system, and Stripe payment integration
+![Licence Application](screenshots/AASA/Licence-Apply.png)
+
+#### Permit Management — Permit detail with tabs for Permit Info, Financials, Post Event, Documents, and Notes — includes Coversheet download and status workflow
+![Permits](screenshots/AASA/Admin-Permits.png)
+
+</details>
+
+---
+
+### 7. Link Management — Gambling Site Data Management Platform
+
+> A large-scale CakePHP web application for managing data of gambling sites — Casino, Poker, Bingo, and Sports. Handles huge volumes of data with powerful reporting and advanced filtration options across 40+ modules.
+
+**Key Features:**
+- Site management with 20+ advanced filters (Domain, Availability, Theme, Article Duration, Price Ranges, Language, SEO metrics TF/CF/DA, Date Ranges, Gambling Site Type, Target Market, Operator, and more)
+- Deal tracking with full lifecycle management — 650+ deals with Client, Company, Deal Amount, Deal Status, Deal Type, Deal Next Action, Link Writer, and Payment tracking
+- Employee email outreach management with filters by Operator, Error Type, Domain, Date, Status, Language, TLD — with CSV upload/download
+- Gambling site categorization: Casino, Poker, Bingo, and Sports betting
+- CSV import/export across modules — Deal CSV Upload, Price Calculate CSV Upload, Download as CSV
+- Client management — Client Sites, Client Current Price, Client Price Finder, Not Available For Client tracking
+- Financial tools — Invoice Generator, Profit Margin calculator, Payment Price Calculator, Provider & Real Payment Status
+- Data integrity tools — Root Domain Finder, Input Order Checker, Compare Files, Deal Correction
+- 40+ configuration modules — Currency, Language, Multiple Keyword, Article Duration, Writing Price, Availability, Theme Site, Operator Type, Target Market, and more
+- System administration — Download Backup, Settings, Admin Manager, Employee management
+
+**Tech Stack:**
+
+![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?style=flat-square&logo=cakephp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+<details>
+<summary><strong>Architecture</strong></summary>
+
+```
+Frontend:    CakePHP Views + jQuery + Bootstrap (responsive UI)
+Backend:     CakePHP MVC Framework (PHP)
+Database:    MySQL with complex relational schema
+Features:    40+ sidebar modules, advanced search/filter on every listing
+Data Ops:    CSV import/export, bulk operations, backup/restore
+Reporting:   Multi-filter reporting across all modules
+```
+</details>
+
+<details>
+<summary><strong>Screenshots (click to expand)</strong></summary>
+<br>
+
+#### Sites — Manage gambling sites with 20+ advanced filter options
+![Sites](screenshots/link-management/Sites.png)
+
+#### Deal Management — Track 650+ deals with full lifecycle and payment workflow
+![Deals](screenshots/link-management/Deal.png)
+
+#### Add Deal — Comprehensive deal creation with client, company, and payment config
+![Add Deal](screenshots/link-management/Add-Deal.png)
+
+#### Add Site — Extensive site registration form with 30+ data fields including SEO metrics
+![Add Site](screenshots/link-management/Add-Site.png)
+
+#### Gambling Site Types — Master configuration for Casino, Poker, Bingo, and Sports categories
+![Gambling Site Types](screenshots/link-management/Gmabling-Site-Types.png)
+
+#### Employee Emails — Outreach tracking with advanced filters and CSV operations
+![Employee Emails](screenshots/link-management/Employee-Email.png)
+
+</details>
+
+---
+
 ## Tech Stack Overview
 
 ### Frontend
@@ -296,10 +501,15 @@ Deployment:  Vercel with GitLab CI/CD pipeline
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ### Backend & Database
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![CakePHP](https://img.shields.io/badge/CakePHP-D33C43?style=for-the-badge&logo=cakephp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -311,7 +521,7 @@ Deployment:  Vercel with GitLab CI/CD pipeline
 
 ## About Me
 
-I'm a Senior Full-Stack Developer with 10+ years of experience building web applications. I specialize in modern JavaScript/TypeScript ecosystems and have delivered production-ready applications across healthcare, finance, and field service industries.
+I'm a Senior Full-Stack Developer with 10+ years of experience building web applications. I specialize in modern JavaScript/TypeScript ecosystems and CakePHP, and have delivered production-ready applications across healthcare, finance, field services, motorsport, and iGaming industries.
 
 ### What I Bring to Every Project
 - End-to-end development from architecture to deployment
